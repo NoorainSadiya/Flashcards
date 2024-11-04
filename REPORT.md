@@ -2,26 +2,26 @@
 
 ## Team
 
-- Name(s): Your Name(s)
-- AID(s): A12345678
+- Name(s): Sadiya Noorain
+- AID(s): A20552054
 
 ## Self-Evaluation Checklist
 
 Tick the boxes (i.e., fill them with 'X's) that apply to your submission:
 
-- [ ] The app builds without error
-- [ ] I tested the app in at least one of the following platforms (check all that apply):
-  - [ ] iOS simulator / MacOS
+- [X] The app builds without error
+- [X] I tested the app in at least one of the following platforms (check all that apply):
+  - [X] iOS simulator / MacOS
   - [ ] Android emulator
-- [ ] Decks can be created, edited, and deleted
-- [ ] Cards can be created, edited, sorted, and deleted
-- [ ] Quizzes work correctly
-- [ ] Decks and Cards can be loaded from the JSON file
-- [ ] Decks and Cards are saved/loaded correctly from/to a SQLite database
-- [ ] The UI is responsive to changes in screen size
+- [X] Decks can be created, edited, and deleted
+- [X] Cards can be created, edited, sorted, and deleted
+- [X] Quizzes work correctly
+- [X] Decks and Cards can be loaded from the JSON file
+- [X] Decks and Cards are saved/loaded correctly from/to a SQLite database
+- [X] The UI is responsive to changes in screen size
 
 ## Summary and Reflection
 
-Replace this paragraph with a brief summary of notable implementation decisions you made and any additional notes that might help us evaluate your submission, including what you weren't able to get working correctly.
+In this submission, I created a Flutter app for managing flashcards within decks. Users can add, edit, delete, and sort flashcards alphabetically. The app uses `StatefulWidgets` to update the display when changes are made. However, data persistence is not implemented yet, so flashcards won't save between sessions. While the main features work, there is room for improvement in error handling and the overall design for better user experience.
 
-Replace this paragraph with notes on what you enjoyed/disliked, found challenging, or wish you had known before starting this MP.
+I enjoyed working on this project because it helped me improve my Flutter skills and learn more about app development. However, I disliked using SQLite. I wish I had known more about alternative data storage options before starting this project.
